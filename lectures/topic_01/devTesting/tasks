@@ -1,0 +1,5 @@
+1) revert the string "abcdefg123" with static len = 10 to "321gfedcba"
+2) perform some test for strip, capitalize, title, upper, lower and some other 
+3) function of D serching
+
+
