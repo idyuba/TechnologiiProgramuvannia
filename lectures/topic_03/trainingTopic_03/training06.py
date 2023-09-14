@@ -7,11 +7,19 @@
 # using dict {}
 
 # animals = {"dog" : 4, "cat" : 4, "goose": 2}
+testDisct = {"a": 1, "b": 2}
+print(testDisct.keys())
+print(testDisct.values())
+print(testDisct.items())
+
+
 animals = {
     "dog" : 4, 
     "cat" : 4, 
     "goose": 2
 }
+
+print("cat" in animals)
 
 print(animals)
 print(animals["dog"])

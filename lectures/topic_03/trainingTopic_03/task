@@ -12,4 +12,10 @@
 
 and some other
 
-3) 
+3) check behaviour for dict functions
+# update()
+# del
+# clear
+# keys()
+# values()
+# items()
