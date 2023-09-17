@@ -1,0 +1,4 @@
+1) add to Calculator app Exception handlig
+
+2) review and try to use several exceptions 
+from https://docs.python.org/3/library/exceptions.html 
