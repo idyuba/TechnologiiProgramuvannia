@@ -1,4 +1,6 @@
-1) 
+1) Rewrite calculator app with using infinite loop
+Each time two values and operators are asking.
+In case of presing something - exit should be
 
 2) check behaviour for list functions
 # extend()

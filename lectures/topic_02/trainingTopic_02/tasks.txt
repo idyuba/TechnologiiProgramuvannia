@@ -4,3 +4,4 @@
  D > 0
 
 2) write 2 calculator apps. First using if elif. Second using match.
+There are 2 values as input parameters and operation to do + - * /
