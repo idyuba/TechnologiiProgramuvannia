@@ -1,0 +1,5 @@
+1) "stone", "scissor", "paper" game
+    stone wins scissor
+    scissor wins paper
+    paper wins stone
+
