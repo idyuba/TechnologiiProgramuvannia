@@ -3,3 +3,6 @@
     scissor wins paper
     paper wins stone
 
+2) curency exchange calculator
+https://bank.gov.ua/NBUStatService/v1/statdirectory/exchangenew?json
+
