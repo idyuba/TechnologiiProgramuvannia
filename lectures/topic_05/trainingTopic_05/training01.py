@@ -5,6 +5,7 @@
 
 # python comes with a lot of mudules after installation
 # print or input just work
+# https://docs.python.org/3/library/functions.html
 # for some reason using of something should be specified more correctly
 
 # https://docs.python.org/3/library/index.html
