@@ -1,0 +1,38 @@
+1)
+
+def findD(a, b, c)
+    D = b**2 - 4 * a * c
+    return D
+
+def FindRoots(a, b, c):
+    D = findD(a, b, c)
+    # D == 0, 1
+    # D > 0, 2
+    # D < 0, коренів немає
+    # if D < 
+    # return x1, x2
+
+
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+c = int(input("Enter c: "))
+
+x1, x2 = FindRoots(a, b, c)
+print(x1, x2)
+
+2) Calc if else
+
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+op = int(input("Operation: "))
+
+# + - * /
+def sum(a,b)
+    return a + b
+
+if op == "+":
+    result = sum(a,b)
+elsif op == "-":
+    esult = minus(a,b)
+
+3)  match
