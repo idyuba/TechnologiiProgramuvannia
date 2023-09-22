@@ -42,7 +42,8 @@ def deleteElement():
         print("Element was not found")
     else:
         print("Dele position " + str(deletePosition))
-        list.pop(deletePosition)
+        # list.pop(deletePosition)
+        del list[deletePosition]
     return
 
 
