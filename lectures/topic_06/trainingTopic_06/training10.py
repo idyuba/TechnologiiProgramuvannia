@@ -6,12 +6,19 @@ import csv
 
 students = []
 
-with open("dump02.txt") as file:
+with open("_input06_dict.txt") as file:
     reader = csv.DictReader(file)
     for row in reader:
         #print(row)
-        students.append({"name":row["Name"], "mark":row["Mark"]})
+        students.append({"name":row["Name"], "age":row["Age"]})
+print(students)
 
-for student in sorted(students, key=lambda student: student["name"]):
-    print(f"Name is {student['name']} mark is {student['mark']}") # braces
+def get_name(student):
+    return student["name"]
+
+def get_age(student):
+    return student["age"]
+
+for student in sorted(students, key=get_age):
+    print(f"Name is {student['name']} age is {student['age']}") # braces
 

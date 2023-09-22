@@ -1,5 +1,5 @@
 # csv file
-with open("dump02.txt") as file:
+with open("_input06.txt") as file:
     for line in file:
         # what to do in csv situation with line
         # split - remember from Theme 01

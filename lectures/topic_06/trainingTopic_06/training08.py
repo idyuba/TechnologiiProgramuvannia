@@ -2,11 +2,11 @@
 
 students = []
 
-with open("dump02.txt") as file:
+with open("_input06.txt") as file:
     for line in file:
-        name, mark = line.rstrip().split(",")
-        student = {"name":name, "mark": mark}
+        name, age = line.rstrip().split(",")
+        student = {"name":name, "age": age}
         students.append(student)
 
-for student in sorted(students, key=lambda student: student["name"]):
-    print(f"Name is {student['name']} mark is {student['mark']}") # braces
+for student in sorted(students, key=lambda student: student["age"]):
+    print(f"Name is {student['name']} age is {student['age']}") # braces
