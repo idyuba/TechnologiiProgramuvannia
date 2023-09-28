@@ -1,0 +1,38 @@
+1) While True:
+    exit() "]"
+
+input(a)
+input(b)
+input(operation)
+
+if operation:
+    ...
+
+exit()
+
+2) test list functions 
+# extend()
+# append()
+# insert(id, val)
+# remove(val)
+# clear()
+# sort()
+# reverse()
+# copy()
+
+3) test dict functions
+# update()
+# del
+# clear
+# keys()
+# values()
+# items()
+
+4) 
+list = ["aa", "ee", "zz"]
+newValue = input("New value") => hh
+find place to insert
+for i in list:
+    if newValue < i
+result == 2
+list = ["aa", "ee", hh, "zz"]
