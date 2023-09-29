@@ -1,0 +1,4 @@
+1) check some __func__ functions
+
+2) find the documentation about int, str, list, dict
+
