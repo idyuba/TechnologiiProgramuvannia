@@ -1,4 +1,9 @@
-1) add to Calculator app Exception handlig
+Preconditions:
+Calculator app with infinite loop and all actions perfom via functions.
 
-2) review and try to use several exceptions 
+1) extend Calculator app with getInt function which handle exception
+
+2) handle ZeroDivisionError at div function
+
+3) review and try to use several exceptions 
 from https://docs.python.org/3/library/exceptions.html 
