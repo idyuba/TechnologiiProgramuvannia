@@ -1,0 +1,9 @@
+Preconditions:
+Calculator app with infinite loop and all actions perfom via functions.
+
+1) extend Calculator app with getInt function which handle exception
+
+2) extend div function of Calculator app to handle ZeroDivisionError
+
+3) review and try to use several exceptions 
+from https://docs.python.org/3/library/exceptions.html 
