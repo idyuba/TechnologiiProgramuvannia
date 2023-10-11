@@ -1,13 +1,14 @@
 Preconditions:
 Calculator app with infinite loop and all actions perfom via functions.
-getInt function which handle exception present
+getIntValue function which handle exception present
 
-1) create module for storing math functions and module for storing getInt function
+1) create module for storing math functions and module for storing getIntValue function
 
 2) "stone", "scissor", "paper" game
     stone wins scissor
     scissor wins paper
     paper wins stone
+    with using random for generate option
 
 3) curency exchange calculator
 https://bank.gov.ua/NBUStatService/v1/statdirectory/exchangenew?json
