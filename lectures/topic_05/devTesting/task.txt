@@ -1,0 +1,21 @@
+
+1) ["stone", "scissor", "paper"] game
+    input("Your choise") "stone", "scissor", "paper"
+    random(["stone", "scissor", "paper"])
+
+    if 
+
+    stone wins scissor
+    scissor wins paper
+    paper wins stone
+
+2) curency exchange calculator
+    EUR, USD, PLN
+    input cnt of foreign curency 
+    output - ukrainian hryvnia
+
+3) Move add() substr(), mul() and div() to module
+functions.py:  add() substr(), mul() and div()
+operations.py: getIntorFloatValue() getOperations()
+calc.py infinite loop, import functions and operations
+
