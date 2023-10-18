@@ -1,4 +1,9 @@
 # csv file
+# name
+# mark
+# name1
+# mark1
+# ..
 with open("_input06.txt") as file:
     for line in file:
         # what to do in csv situation with line

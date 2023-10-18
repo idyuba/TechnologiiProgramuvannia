@@ -7,6 +7,7 @@ with open("_input06.txt") as file:
         student = {} # name and mark
         student["name"] = name
         student["age"] = age
+        #  student = {"name":name, "age": age}
         students.append(student)
 
 print(students)
