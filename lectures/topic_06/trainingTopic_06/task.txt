@@ -1,0 +1,8 @@
+1) precondition: unsorted list of dict {name, age} 
+use lambda function (name or age) for sorted() function 
+
+2) preconditions CalcApp (calc.py, func.py, operation.py )
+log all action to calc.log
+
+
+
