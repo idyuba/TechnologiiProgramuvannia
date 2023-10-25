@@ -1,5 +1,17 @@
 # https://docs.python.org/3/tutorial/classes.html
 
+# example of methods
+# rewrite get_student to use input for variables
+# and __init__
+def get_student():
+    name = input("Name: ")
+    house = input("House: ")
+    phone = input("Phone: ")
+    # Student() - like a function
+    # student = Student(name, house) # some check could be perfomed, valid of data
+    # return student
+    return Student(name, house, phone)
+
 class Student:
     def __init__(self, name, house, phone): # self using bu design
         # customize object
@@ -21,13 +33,7 @@ class Student:
         self.name = self.name.upper()
 
 
-def get_student():
-    name = input("Name: ")
-    house = input("House: ")
-    phone = input("Phone: ")
-    # student = Student(name, house) # some check could be perfomed, valid of data
-    # return student
-    return Student(name, house, phone)
+
 
 def main():
     student = get_student()
